@@ -1,0 +1,74 @@
+body{
+  margin: 2%;;
+  padding: 0;
+
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+img{
+  height: 50%;
+  width: 100%;
+  padding: 2px;
+}
+
+ul{
+  padding: 0;
+}
+
+.employee{
+  flex-direction: column;
+  font-size: 12px;
+  width: 22%;
+  height: 30%;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.name{
+  margin: 0 auto;
+  border-bottom: 2px solid green;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 3px;
+  text-align: center;
+}
+
+.email{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  padding: 7px;
+}
+
+.locinfo{
+  color: grey;
+  list-style: none;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.social{
+  text-align: center;
+  color: transparent;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.social:hover{
+  text-align: center;
+  color: green;
+}
